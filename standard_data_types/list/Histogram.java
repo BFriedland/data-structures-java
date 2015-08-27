@@ -80,6 +80,34 @@ public class Histogram {
             numeralCounts.add(i, 0);
         }
 
+        // for i in range(2,101,2)
+        for (Integer i = 2; i < 101; i += 2) {
+
+            // System.out.println(Integer.toString(i));
+
+        }
+
+        // for i in range(1,100)
+        for (Integer i = 1; i < 100; i++) {
+
+            // System.out.println(Integer.toString(i));
+
+        }
+
+        // for i in range(100,0,-1)
+        for (Integer i = 100; i > 0; i--) {
+
+            // System.out.println(Integer.toString(i));
+
+        }
+
+        // for x,y in zip(range(10),range(0,20,2))
+        for (Integer x = 0, y = 0; (x < 10) && (y < 20); x++, y += 2) {
+
+            // System.out.println(Integer.toString(x).concat(", ").concat(Integer.toString(y)));
+
+        }
+
         // Note that the Scanner's hasNextInt method
         // is called before attempting to call nextInt.
         // This probably prevents some kind of exception...
